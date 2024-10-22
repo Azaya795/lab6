@@ -1,0 +1,333 @@
+header{
+   display: flex; 
+   justify-content: flex-start;
+   font-size: 20px;
+   height: 60px;
+   padding: 10px;
+   border-style: ridge;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background-color: #ffffff;
+}
+header img{
+  padding-top: 30px;
+  padding-left: 30px;
+}
+h1{
+  width: 900px;
+  text-align: center;
+}
+header{
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+header p{
+ margin-top: 34px;
+ padding-left: 30px;
+}
+
+    .search {
+        margin-top: 30px;
+        margin-right: 30px;
+        display: flex;
+      }
+      
+      .searchTerm {
+        border: 3px solid #010101;
+        border-right: none;
+        padding: 5px;
+        height: 20px;
+        outline: none;
+        color: #ffffff;
+      }
+      
+      .searchTerm:focus{
+        color: #ffffff;
+      }
+      
+      .searchButton {
+        width: 40px;
+        height: 36px;
+        border: 1px solid #000000;
+        background: #101010;
+        text-align: center;
+        color: #fff;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        font-size: 20px;
+      }
+
+.dropbtn {
+    padding-top: 30px;
+    background-color: white;
+    font-size: 30px;
+    border: none;
+   
+  }
+  
+ 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+
+  .show {display:block;}
+  .sidebar {
+    height: 100%;
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    right: 0; 
+    background-color:#f1f1f1; 
+    overflow-x: hidden; 
+    transition: 0.5s; 
+    padding-top: 60px; 
+}
+.sidebar a{
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #0f0f0f;
+    display: block;
+    transition: 0.3s;
+}
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+#mainContent {
+    transition: margin-right 0.5s;
+}
+.openbtn {
+    background-color:white;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding-top: 37px;
+    padding-left: 10px;
+    font-size: 20px;
+    width: 100px;
+}
+.call{
+    padding: 10px;
+}
+.videoback{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.video{
+  width: 100%;
+  height: auto;
+}
+.inner{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.inner a {
+color: white;
+text-align: center;
+}
+.inner p {
+  color: white;
+  text-align: center;
+}
+.inner h2{
+  color: white;
+  text-align: center;
+}
+.garchig1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+ 
+}
+#line1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+#line2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+#gol img{
+  width: 250px;
+  height: 300px;
+  padding: 10px;
+}
+#womengol{
+  text-align: center;
+  
+}
+#womengol a{ 
+  color: #000000;
+}
+#womenpic{
+  width: 100%;
+  height: auto;
+}
+#womenpic img{ 
+  width: 100%;
+  height: auto;
+}
+#wnclothe{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#wnclothe img{
+  width: 250px;
+  height: 300px;
+  margin: 10px;
+  background-color: #f1f1f1;
+}
+#menpic{
+
+width: 100%;
+height: auto;
+}
+#menpic img{
+  width: 100%;
+  height:auto;
+}
+#mengol{text-align: center;}
+#mengol a{ color: #000000;}
+#mnclothe{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#mnclothe img{
+  width: 250px;
+  height: 300px;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+#giftpicture{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+#giftpicture img{
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+
+@media (max-width: 600px) {
+h1{font-size: 10px;
+width: 300px;}
+header{height: 60px;}
+.search{
+  display: none;
+}
+.garchig1{
+  padding-top: 30px;
+}
+
+#video{
+ display: none;
+}
+.inner{
+  display: none;
+}
+
+}
+@media  (max-width: 900px) {
+  h1{font-size: 15px;
+   padding-top: 30px;}
+  .inner{top: 80%;
+ left: 50%;
+ font-size:10px ;} 
+ .openbtn{font-size: 20px;}
+ #video{
+  display: none;
+}
+.inner{
+  display: none;
+}
+}
+
+
+figure, a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+figure a p {
+  color: #000000;
+}
+.row1,.row2,.row3,.row4{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 250px;
+}
+.ashinoue{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-style: ridge;
+}
+.grey{
+  color: rgb(177, 177, 177);
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.end{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+footer a{
+  font-size: 10px;
+  color: #000000;
+  padding-top: 30px;
+}
+
+
+
+  
